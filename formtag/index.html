@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM-TAG</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+
+    <h2>GOOGLE SEARCH</h2>
+    <form action="https://www.google.com/search"> <!-- yho yt ko link ho -->
+        <input type="text" name="q"> <!-- yho q chai search engine ko link jaba seach garxam automatic google sreach hunxa -->
+        <button>Search on google</button>
+    </form>
+
+    <h2>YOUTUBE</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search on Youtube</button>
+    </form>
+    
+    <h2>DARRAZ</h2>
+    
+    <!-- esari form ko used garera we can link other webiste search bar to our webiste.-->
+
+    <form action="https://www.daraz.com.np/catalog/?"> 
+        <input type="text" name="q">
+        <button>Search on darazz</button>
+    </form>
+<hr><hr>
+
+<form action="/">
+    <h1 style="font-weight: 700; text-align: center; font-size: 60px;">Register Form</h1>
+
+    <p><label for="name">User-Name:</label></p>
+    <input id="name" name="name" type="text" placeholder="Enter User-Name" required>
+<br><br>
+
+<p> <label for="email">Email: </label></p>
+    <input id="email" name="email" type="email" placeholder="Enter Email" required>
+    <br><br>
+    <!-- required ayexi pw halnai parxa/ max min halexi teti ko range ko pw hunu parxa -->
+    
+    <p><label for="password">Password: </label></p>
+    <input id="password" name="password" type="password" placeholder="Enter Password" required minlength="8" maxlength="10">
+    <br><br>
+
+    <p></p><label for="Number"> Mobile Number:</label> </p>
+    <input id="Number" name="Number" type="Number" placeholder="Enter Mobile Number" required minlength="10" maxlength="10">
+<br><br>
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+
+
+</form>
+
+</body>
+</html>
